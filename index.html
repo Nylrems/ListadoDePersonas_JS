@@ -7,13 +7,20 @@
     <link rel="stylesheet" href="./src/css/style.css" />
     <title>Listado de personas</title>
   </head>
-  <body>
+  <body onload="mostrarPersonas()">
 
     <div class="contenedor" id="cabecero">
         <h1>Listado de personas</h1>
     </div>
 
-    <script src="./src/js/app.js"></script>
+    <div class="contenedor">
+        <div class="elemento">
+            <ul id="personas">
+                
+            </ul>
+        </div>
+    </div>
     <script src="./src/js/persona.js"></script>
+    <script src="./src/js/app.js"></script>
   </body>
 </html>

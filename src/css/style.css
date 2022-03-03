@@ -33,6 +33,9 @@ html {
     align-items: center;
     border-bottom: 1px solid #f1f1f1;
   }
+  .elemento li{
+    list-style: none;
+  }
   
   .elemento:last-child {
     border-bottom: 0;
